@@ -9,13 +9,13 @@
 # Website Info
 info:
   # Site Favicon
-  favicon: assets/images/Hexo-Theme-MEOW.ico
+  favicon: assets/images/fufen.ico
   # Site Logo
-  logo: assets/images/Hexo-Theme-MEOW.png
+  logo: assets/images/fufen.png
   # Author Avatar
-  avatar: 
+  avatar: assets/images/mgy.jpg
   # Datetime of when this website was built
-  start_date: 2024-04-02 22:16:20 # Format should be as same as date_format and time_format of root config
+  start_date: 2026-05-12 19:51:20 # Format should be as same as date_format and time_format of root config
 
 # Theme Color & Mode
 color:
@@ -33,10 +33,10 @@ color:
 global:
   # Icon Configuration
   icon:
-    type: uc # Icon Style Type, uc or ta or other custom collection
+    type: xd # Icon Style Type, uc or ta or other custom collection
   selectable: true # Whether users can select text
   # Change page title when page onblur, false or onblur title text
-  onblur_title: "Please Come Back～✧(´▽`ʃ♡ƪ)"
+  onblur_title: "魔鬼鱼遨游中"
   mouse_click_style: false # Whether to display colorful heart when clicking
 
 # Font Customization
@@ -51,11 +51,17 @@ font:
 
 # Navigation Bar
 menu:
-  # articles || uc-article:
-  #   archives: /archives || uc-archive
-  #   categories: /categories || uc-category
-  #   tags: /tags || uc-tag
-  # about: /about || uc-about
+  世界观 || xd-world:
+    西尔维娅的钟表: / || xd-xewy   
+    踏水者自海而来: / || xd-tsz
+  角色 || xd-people:
+    西尔维娅的钟表: / || xd-xewy  
+    踏水者自海而来: / || xd-tsz 
+  故事剧情 || xd-story:
+    西尔维娅的钟表: / || xd-xewy 
+    踏水者自海而来: / || xd-tsz   
+  其他 || xd-other:
+    随笔: /
 
 # Navigation Bar Configuration
 menu_options:
@@ -78,8 +84,8 @@ search:
 banner:
   # Background image of banner under light/dark mode
   image:
-    light: assets/images/wallhaven-5yl597.webp
-    dark: assets/images/wallhaven-e7zogk.webp
+    light: assets/images/mgywhite.webp
+    dark: assets/images/mgyblack.webp
     is_fixed: true # Whether the image is fixed as background or scrollable with banner at homepage, true or false
     position: center top # horizontal(left/center/right) vertical(top/center/bottom)
     repeat: no-repeat # repeat/repeat-x/repeat-y/no-repeat
@@ -91,7 +97,7 @@ banner:
   # Banner title
   title:
     enable: true # Whether to show title
-    text: 「 MEOW 」 # Title text
+    text: 「 MGYblog 」 # Title text
   # Banner subtitle at homepage
   subtitle:
     enable: false # Whether to show subtitle
@@ -108,7 +114,7 @@ banner:
     fade_out: true # Whether to enable fade out effect
     shuffle: false # Whether to shuffle the text list
   title_color: # Title color under light/dark mode
-    light: '#fff'
+    light: '#000000'
     dark: '#e0e0e0'
 
 # Sidebar At Homepage
@@ -121,10 +127,10 @@ sidebar:
     enable: true # Whether to show information card
     type: author # Which type of avatar to show, site or author
     status: # Status next to the avatar
-      emoji: 🐱 # false or emoji
+      emoji: false # false or emoji
       desc: # Describe the status
     link: # Url for image clicking
-    desc: # Describe yourself or say something
+    desc: 外星飞鱼劲爆吃人中
     statistic: true # Whether to show the total number of articles, categories and tags
     social: # Social profiles
       enable: false # Whether to show social module
@@ -141,9 +147,9 @@ sidebar:
       # 📦 Meow's Repository: https://github.com/chanwj/hexo-theme-meow
   # Categories card
   categories:
-    enable: true # Whether to show categories card
+    enable: false # Whether to show categories card
     depth: 0 # Levels of categories to be displayed. 0 displays all categories and child categories; 1 displays only top level categories. Better be less than 3.
-  tags: true # Whether to show tags card
+  tags: false # Whether to show tags card
 
 # Floating Toolbar
 toolbar:
@@ -159,7 +165,7 @@ home:
 
 # Archive Customization
 archive:
-  icon: assets/images/Hexo-Theme-MEOW.png # Show icon when no cover, icon link or stay blank
+  icon: assets/images/fufen.png # Show icon when no cover, icon link or stay blank
   thumbnail: true # Whether to show cover or photo
 
 # Category Customization
@@ -187,7 +193,7 @@ post:
   view: false # Whether to display post view data
   font_size: 17px # Font size of posts with unit
   font_size_small: 15px # Font size of posts with unit on small screen
-  indent: false # Whether to indent the first line of paragraph in post by 2em
+  indent: true # Whether to indent the first line of paragraph in post by 2em
   # Post TOC module
   toc:
     enable: true # Whether to generate post TOC
@@ -197,12 +203,12 @@ post:
     max_items: Infinity # Maximum number of items in generated toc, Infinity or number
   # Post reward module
   reward:
-    enable: true # Whether to show post reward module
+    enable: false # Whether to show post reward module
     outer_text: # Text under reward button
     inner_text: # Text in reward module
     # Credits list
     reward_list:
-      enable: true # Whether to show credits list link
+      enable: false # Whether to show credits list link
       link: # Credits list link url
   # Post copyright module
   copyright:
@@ -247,7 +253,7 @@ page_view:
 
 # Footer Customization
 footer:
-  icon: 💗 # Emoji or false
+  icon: ✨ # Emoji or false
   author_link: # Url for the link of author
   runtime: true # Whether to show website running time
   statistic: false # Whether to show site statistics(total articles & total wordcount)
@@ -267,7 +273,7 @@ reward:
 # Share Customization
 share:
   notify: false # Whether to enable notification when copy text(Ctrl+C) or pressing F12
-  share_text: '🐱Share From Meow' # Text attached to the copied information
+  share_text: '来自魔鬼鱼' # Text attached to the copied information
 
 # Essay Page
 essay:
